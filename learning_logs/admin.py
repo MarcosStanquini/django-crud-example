@@ -6,4 +6,4 @@ admin.site.register(Entry)
 @admin.register(Topic)
 
 class TopicAdmin(admin.ModelAdmin):
-    search_fields = ["text"]
+    search_field = ["date_added"]
